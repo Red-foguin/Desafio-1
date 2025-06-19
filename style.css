@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    font-family: 'Inter';
+}
+
+#cabecalho{
+    background-color: #303030;
+    color: #FFFFFF;
+    padding: 80px 0px 90px 20px;
+}
+
+#informacoes{
+    display: flex;
+    justify-content: space-around;
+    background-color: #F9F9F9;
+    padding: 20px;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+
+.coluna {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.titulo-inf{
+    font-size: 30px;
+    text-align: left;
+    padding-bottom: 3px;
+    font-weight: 700;
+}
+
+.titulo-par{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#apresentacao{
+    padding: 30px;
+    display: flex;  
+}
+
+#tit-apr{
+    font-weight: 600;
+    padding-bottom: 18  px;
+}
+
+#texto{
+    padding-top: 200px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+#sala{
+    padding-top: 40px;
+    padding-left: 36px;
+    padding-right: 54px;
+    padding-bottom: 40px;
+}
+
+#interacao{
+    background-color: #303030;
+    color: #FFFFFF;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    text-align: center;  
+}
+
+.campos{
+    color: #090000;
+    height: 18px;
+    padding-top: 10px;
+    margin: 12px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+#botao{
+    background-color: #C07212;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    font-weight: 700;
+    border-radius: 5px;
+    border: 0px;
+}
